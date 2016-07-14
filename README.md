@@ -21,5 +21,11 @@ In the Config/server.txt you find:
       
       -seventh line - mysql database name
 
-inventory.bin and deposit.bin are used to save players inventory and deposit items to database asa BLOB.
-Format:each item is writed as an int[4 bytes].
+      inventory.bin and deposit.bin are used to save players inventory and deposit items to database asa BLOB.
+      Format:each item is writed as an int[4 bytes].
+
+      v1020
+      -rsolved some bugs
+      -more stabile
+      -added future need code
+      -max point[login->hit lobby]
